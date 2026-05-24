@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+@theme {
+  /* Color palette – soft, elegant, readable */
+  --color-offwhite: #faf9f6;
+  --color-warm-white: #ffffff;
+  --color-soft-black: #2c2c2c;
+  --color-warm-gray: #6b6b6b;
+  --color-beige: #d4a373;
+  --color-beige-dark: #b5835a;
+  --color-cream-border: #e8e4db;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-offwhite);
+    color: var(--color-soft-black);
+    font-family: 'Georgia', 'Times New Roman', serif;  /* Elegant serif for body */
+    line-height: 1.7;
+    font-size: 1.05rem;
+  }
+
+  /* Headings – clean, slightly bold, with a touch of warmth */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    color: var(--color-soft-black);
+  }
+
+  h1 {
+    font-size: 3rem;
+    font-weight: 450;
+    letter-spacing: -0.025em;
+  }
+
+  h2 {
+    font-size: 2rem;
+    font-weight: 450;
+  }
+
+  /* Links inside content */
+  a {
+    transition: color 0.2s ease;
+  }
+
+  /* Subtle selection color */
+  ::selection {
+    background-color: var(--color-beige);
+    color: white;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    background-color: var(--color-beige);
+    color: white;
+    transition: all 0.3s ease;
+    font-family: 'Inter', sans-serif;
+    font-weight: 450;
+  }
+  
+  .btn-primary:hover {
+    background-color: var(--color-beige-dark);
+  }
+  
+  /* Card text styles */
+  .card-title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+  }
+
+  .card-excerpt {
+    color: var(--color-warm-gray);
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+}
