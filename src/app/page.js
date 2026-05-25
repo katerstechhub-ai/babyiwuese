@@ -44,7 +44,7 @@ export default function Home() {
           <p className="text-xl md:text-2xl font-light tracking-wide text-white/90">
             Travel | Lifestyle | Adventures
           </p>
-          <Link href="/travel" className="inline-block bg-[#d4a373] text-white px-8 py-3 rounded-lg hover:bg-[#b5835a] transition mt-8">
+          <Link href="/about" className="inline-block bg-[#d4a373] text-white px-8 py-3 rounded-lg hover:bg-[#b5835a] transition mt-8">
             Explore Blog →
           </Link>
         </div>
@@ -73,7 +73,7 @@ export default function Home() {
             </p>
           </div>
           <div className="mt-10">
-            <Link href="/about" className="inline-block border-2 border-[#d4a373] text-[#d4a373] px-10 py-3 rounded-full hover:bg-[#d4a373] hover:text-white transition font-medium text-sm uppercase tracking-wider">
+            <Link href="/about" className="inline-block border border-[#d4a373] text-[#d4a373] px-10 py-3 rounded-full hover:bg-[#d4a373] hover:text-white transition font-medium text-sm uppercase tracking-wider">
               Read My Story →
             </Link>
           </div>
@@ -133,7 +133,7 @@ export default function Home() {
           )}
 
           <div className="text-center mt-16">
-            <Link href="/blog" className="inline-block border-2 border-[#d4a373] text-[#d4a373] px-8 py-3 rounded-full hover:bg-[#d4a373] hover:text-white transition font-medium text-sm uppercase tracking-wide">
+            <Link href="/blog" className="inline-block border border-[#d4a373] text-[#d4a373] px-8 py-3 rounded-full hover:bg-[#d4a373] hover:text-white transition font-medium text-sm uppercase tracking-wide">
               Read the Archive →
             </Link>
           </div>
@@ -154,7 +154,7 @@ export default function Home() {
                 join me as I explore new cultures, taste local flavors,
                 and collect memories that last a lifetime.
               </p>
-              <Link href="/travel" className="inline-block border-2 border-[#d4a373] text-[#d4a373] px-8 py-2 rounded-full hover:bg-[#d4a373] hover:text-white transition font-medium text-sm uppercase tracking-wider">
+              <Link href="/travel" className="inline-block border border-[#d4a373] text-[#d4a373] px-8 py-2 rounded-full hover:bg-[#d4a373] hover:text-white transition font-medium text-sm uppercase tracking-wider">
                 Explore Travel →
               </Link>
             </div>
@@ -186,7 +186,7 @@ export default function Home() {
                 explore the little moments that make life beautiful.
                 Style, wellness, and everyday inspiration — curated just for you.
               </p>
-              <Link href="/lifestyle" className="inline-block border-2 border-[#d4a373] text-[#d4a373] px-8 py-2 rounded-full hover:bg-[#d4a373] hover:text-white transition font-medium text-sm uppercase tracking-wider">
+              <Link href="/lifestyle" className="inline-block border border-[#d4a373] text-[#d4a373] px-8 py-2 rounded-full hover:bg-[#d4a373] hover:text-white transition font-medium text-sm uppercase tracking-wider">
                 Explore Lifestyle →
               </Link>
             </div>
